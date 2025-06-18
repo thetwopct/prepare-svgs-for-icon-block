@@ -1,0 +1,32 @@
+{
+	"name":"prepare-svgs-for-icon-block",
+	"version":"0.0.0",
+	"description":"Zero-config CLI to convert raw SVG files into clean, optimized, ready-to-use icons suitable for The Icon Block for WordPress",
+	"author":"James Hunt",
+	"license":"MIT",
+	"bin":{
+	   "prepare-svgs":"./bin/prepare-svgs.js"
+	},
+	"dependencies":{
+	   "chalk":"^5.4.1",
+	   "inquirer":"^9.3.7",
+	   "svgo":"^3.3.2"
+	},
+	"type":"module",
+	"keywords":[
+	   "svg",
+	   "icon",
+	   "wordpress",
+	   "cli",
+	   "optimize",
+	   "the-icon-block"
+	],
+	"engines":{
+	   "node":">=18"
+	},
+	"files":[
+	   "bin/",
+	   "lib/",
+	   "README.md"
+	]
+ }
