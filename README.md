@@ -26,6 +26,12 @@ Install globally via npm:
 npm install --global prepare-svgs-for-icon-block
 ```
 
+or run with `npx`:
+
+```sh
+npx prepare-svgs-for-icon-block
+```
+
 This will make the command available anywhere on your system.
 
 ## Usage
@@ -38,7 +44,7 @@ $ prepare-svgs
 
 The follow the prompts.
 
-The script is non-destructive on the original SVGs, it doesnt touch them or edit them in anyway.
+The script is non-destructive on the original SVGs, it doesn't touch them or edit them in anyway.
 
 ## Output
 
@@ -65,6 +71,10 @@ Please open an issue in the [GitHub repo](https://github.com/thetwopct/prepare-s
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Changelog
+
+1.0.1
+- Ability to set a filename (optional)
+- Ability to set `export default customIcons;` in final written file for importing into JavaScript.
 
 1.0.0
 Initial release

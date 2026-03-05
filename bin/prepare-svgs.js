@@ -15,6 +15,18 @@ const questions = [
 		default: process.cwd(),
 	},
 	{
+		type: 'input',
+		name: 'outputFile',
+		message: 'Output filename (optional):',
+		default: 'output.js',
+	},
+	{
+		type: 'confirm',
+		name: 'addExport',
+		message: 'Add export statement:',
+		default: false,
+	},
+	{
 		type: 'confirm',
 		name: 'advanced',
 		message: 'Advanced options:',
@@ -26,6 +38,8 @@ const answers = await inquirer.prompt(questions);
 
 let options = {
 	directory: path.resolve(answers.directory),
+	outputFile: answers.outputFile,
+	addExport: answers.addExport,
 	framedIcons: false,
 	forcePathColor: false,
 	fillColor: '#252321'
