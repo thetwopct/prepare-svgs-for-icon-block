@@ -32,5 +32,8 @@
 	],
 	"devDependencies": {
 		"np": "^11.0.2"
+	},
+	"scripts": {
+		"release": "np"
 	}
 }
