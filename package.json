@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"bin": {
 		"prepare-svgs-for-icon-block": "bin/prepare-svgs.js",
-  		"prepare-svgs": "bin/prepare-svgs.js"
+		"prepare-svgs": "bin/prepare-svgs.js"
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
@@ -29,5 +29,8 @@
 		"bin/",
 		"lib/",
 		"README.md"
-	]
+	],
+	"devDependencies": {
+		"np": "^11.0.2"
+	}
 }
