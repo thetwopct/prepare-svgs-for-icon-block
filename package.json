@@ -5,7 +5,8 @@
 	"author": "James Hunt",
 	"license": "MIT",
 	"bin": {
-		"prepare-svgs": "./bin/prepare-svgs.js"
+		"prepare-svgs-for-icon-block": "bin/prepare-svgs.js",
+  		"prepare-svgs": "bin/prepare-svgs.js"
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
